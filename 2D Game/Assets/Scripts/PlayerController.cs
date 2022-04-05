@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rB2D = GetComponent<Rigidbody2D>();
+        PlayerPrefs.DeleteAll();
     }
 
     // Update is called once per frame
